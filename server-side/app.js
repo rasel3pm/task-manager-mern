@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 const router = require("./src/router/router")
 const bodyParser = require("body-parser");
-
+const morgan = require("morgan")
 //Security Middleware import
 // const mongoSanitize = require("mongo-sanitize");
 const rateLimit = require("express-rate-limit");
@@ -26,6 +26,7 @@ app.use(helmet());
 app.use(limiter);
 app.use(hpp());
 app.use(xss());
+app.use(morgan("dev"))
 app.use(
     cors({
         origin: "*",

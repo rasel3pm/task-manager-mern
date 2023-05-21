@@ -4,7 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1484a0d5-3202-4f42-9527-02223b58992d" name="Changes" comment="" />
+    <list default="true" id="1484a0d5-3202-4f42-9527-02223b58992d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/client-side/src/common/Header.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client-side/src/components/Task-card.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client-side/src/pages/Add-Task.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client-side/src/pages/Home.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client-side/src/pages/LogIn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client-side/src/pages/Not-Found.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client-side/src/pages/Register.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client-side/src/pages/Show-Task.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-side/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/server-side/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-side/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/server-side/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-side/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/server-side/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-side/src/controller/taskManager.js" beforeDir="false" afterPath="$PROJECT_DIR$/server-side/src/controller/taskManager.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-side/src/middleware/authentication.js" beforeDir="false" afterPath="$PROJECT_DIR$/server-side/src/middleware/authentication.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-side/src/router/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/server-side/src/router/router.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +33,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -27,6 +46,7 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
@@ -49,7 +69,10 @@
       <option name="presentableId" value="Default" />
       <updated>1684485920404</updated>
       <workItem from="1684485921709" duration="13759000" />
-      <workItem from="1684510895886" duration="305000" />
+      <workItem from="1684510895886" duration="4315000" />
+      <workItem from="1684557899422" duration="5931000" />
+      <workItem from="1684574365104" duration="5687000" />
+      <workItem from="1684664257766" duration="7248000" />
     </task>
     <servers />
   </component>

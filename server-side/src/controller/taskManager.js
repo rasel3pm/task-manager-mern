@@ -1,21 +1,20 @@
 const Task = require("../model/taskModel")
 
 //create task
-exports.createTask=async (req,res)=>{
+exports.createTask= async (req,res)=>{
         try{
-            const {title,description,author,categories,tagName}=req.body
-            const post =await new Task({
+            const {title,description,author}= req.body
+            const post = await new Task({
                 title,
                 description,
                 author
             })
-            const data =await post.save()
-            res.status(200).json({message:"post create success",data})
+            const data = await post.save()
+            res.status(200).json({message:"Task create success",data})
         }catch (err) {
             res.status(404).json({error:"Something went wrong",err})
         }
 }
-
 //get all task
 exports.getTask= async (req,res)=>{
     try {
@@ -27,7 +26,6 @@ exports.getTask= async (req,res)=>{
         res.status(404).json({error: "Failed to get all task"})
     }
 }
-
 //get task by id
 exports.getTaskById = async (req,res)=>{
     try{
@@ -40,7 +38,6 @@ exports.getTaskById = async (req,res)=>{
         console.log(err)
     }
 }
-
 //update task by Id
 exports.updateTask = async (req,res)=>{
     try{
@@ -52,7 +49,6 @@ exports.updateTask = async (req,res)=>{
         res.status(404).json({error: "Failed to update task by id---",err})
     }
 }
-
 //delete task by Id
 exports.deleteTask = async (req,res)=>{
     try {
