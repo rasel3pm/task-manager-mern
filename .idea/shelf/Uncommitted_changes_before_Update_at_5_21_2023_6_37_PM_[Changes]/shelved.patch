@@ -1,0 +1,59 @@
+Index: client-side/src/components/Task-card.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import React from \"react\";\r\nimport {Card} from \"react-bootstrap\";\r\nconst TaskCard = ({title,description,author,createdAt})=>{\r\n    return(\r\n        <Card border=\"primary\" style={{ width: 'auto', }}>\r\n            <Card.Header>Author : {author}</Card.Header>\r\n            <Card.Body>\r\n                <Card.Title>{title}</Card.Title>\r\n                <Card.Text>\r\n                    {description}\r\n                </Card.Text>\r\n            </Card.Body>\r\n        </Card>\r\n    )\r\n}\r\nexport default TaskCard\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/client-side/src/components/Task-card.js b/client-side/src/components/Task-card.js
+--- a/client-side/src/components/Task-card.js	(revision 5ffc215b2d1ca60bbc813aa1646a33d22582a778)
++++ b/client-side/src/components/Task-card.js	(date 1684672476605)
+@@ -13,4 +13,4 @@
+         </Card>
+     )
+ }
+-export default TaskCard
++export default TaskCard
+\ No newline at end of file
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"1484a0d5-3202-4f42-9527-02223b58992d\" name=\"Changes\" comment=\"\">\r\n      <change afterPath=\"$PROJECT_DIR$/client-side/src/common/Header.js\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/client-side/src/components/Task-card.js\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/client-side/src/pages/Add-Task.js\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/client-side/src/pages/Home.js\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/client-side/src/pages/LogIn.js\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/client-side/src/pages/Not-Found.js\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/client-side/src/pages/Register.js\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/client-side/src/pages/Show-Task.js\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/server-side/app.js\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/server-side/app.js\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/server-side/package-lock.json\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/server-side/package-lock.json\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/server-side/package.json\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/server-side/package.json\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/server-side/src/controller/taskManager.js\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/server-side/src/controller/taskManager.js\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/server-side/src/middleware/authentication.js\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/server-side/src/middleware/authentication.js\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/server-side/src/router/router.js\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/server-side/src/router/router.js\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"JavaScript File\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"2Q0MCnZQehfBmT77ov8iABJteTp\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">{\r\n  &quot;keyToString&quot;: {\r\n    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,\r\n    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,\r\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\r\n    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,\r\n    &quot;last_opened_file_path&quot;: &quot;C:/my-all-projects/MERN stack caurse by Rabbil hasan_ostad/projects/task-manager&quot;,\r\n    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,\r\n    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,\r\n    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,\r\n    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,\r\n    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,\r\n    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,\r\n    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;\r\n  }\r\n}</component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"1484a0d5-3202-4f42-9527-02223b58992d\" name=\"Changes\" comment=\"\" />\r\n      <created>1684485920404</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1684485920404</updated>\r\n      <workItem from=\"1684485921709\" duration=\"13759000\" />\r\n      <workItem from=\"1684510895886\" duration=\"4315000\" />\r\n      <workItem from=\"1684557899422\" duration=\"5931000\" />\r\n      <workItem from=\"1684574365104\" duration=\"5687000\" />\r\n      <workItem from=\"1684664257766\" duration=\"7248000\" />\r\n    </task>\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 5ffc215b2d1ca60bbc813aa1646a33d22582a778)
++++ b/.idea/workspace.xml	(date 1684672476822)
+@@ -5,21 +5,7 @@
+   </component>
+   <component name="ChangeListManager">
+     <list default="true" id="1484a0d5-3202-4f42-9527-02223b58992d" name="Changes" comment="">
+-      <change afterPath="$PROJECT_DIR$/client-side/src/common/Header.js" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/client-side/src/components/Task-card.js" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/client-side/src/pages/Add-Task.js" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/client-side/src/pages/Home.js" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/client-side/src/pages/LogIn.js" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/client-side/src/pages/Not-Found.js" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/client-side/src/pages/Register.js" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/client-side/src/pages/Show-Task.js" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/server-side/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/server-side/app.js" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/server-side/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/server-side/package-lock.json" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/server-side/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/server-side/package.json" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/server-side/src/controller/taskManager.js" beforeDir="false" afterPath="$PROJECT_DIR$/server-side/src/controller/taskManager.js" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/server-side/src/middleware/authentication.js" beforeDir="false" afterPath="$PROJECT_DIR$/server-side/src/middleware/authentication.js" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/server-side/src/router/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/server-side/src/router/router.js" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/client-side/src/components/Task-card.js" beforeDir="false" afterPath="$PROJECT_DIR$/client-side/src/components/Task-card.js" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -72,7 +58,7 @@
+       <workItem from="1684510895886" duration="4315000" />
+       <workItem from="1684557899422" duration="5931000" />
+       <workItem from="1684574365104" duration="5687000" />
+-      <workItem from="1684664257766" duration="7248000" />
++      <workItem from="1684664257766" duration="7562000" />
+     </task>
+     <servers />
+   </component>

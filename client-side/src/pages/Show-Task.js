@@ -13,7 +13,6 @@ const ShowTask = ()=>{
             .catch((err) => console.log("not found", err));
     };
     useEffect(() => dataFetch(), []);
-    console.log(task)
     return(
         <Container >
             <div className="content">
