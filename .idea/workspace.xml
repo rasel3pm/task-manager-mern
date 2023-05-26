@@ -5,17 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1484a0d5-3202-4f42-9527-02223b58992d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/server-side/src/controller/orderController.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server-side/src/model/orderModel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client-side/src/components/User-login.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-side/src/components/Task-card.js" beforeDir="false" afterPath="$PROJECT_DIR$/client-side/src/components/Task-card.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-side/src/pages/Show-Task.js" beforeDir="false" afterPath="$PROJECT_DIR$/client-side/src/pages/Show-Task.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server-side/src/controller/taskManager.js" beforeDir="false" afterPath="$PROJECT_DIR$/server-side/src/controller/taskManager.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server-side/src/database/DB-connect.js" beforeDir="false" afterPath="$PROJECT_DIR$/server-side/src/database/DB-connect.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server-side/src/middleware/authentication.js" beforeDir="false" afterPath="$PROJECT_DIR$/server-side/src/middleware/authentication.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server-side/src/model/taskModel.js" beforeDir="false" afterPath="$PROJECT_DIR$/server-side/src/model/taskModel.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server-side/src/model/userModel.js" beforeDir="false" afterPath="$PROJECT_DIR$/server-side/src/model/userModel.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server-side/src/router/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/server-side/src/router/router.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-side/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/client-side/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-side/src/common/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/client-side/src/common/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-side/src/pages/Add-Task.js" beforeDir="false" afterPath="$PROJECT_DIR$/client-side/src/pages/Add-Task.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-side/src/pages/LogIn.js" beforeDir="false" afterPath="$PROJECT_DIR$/client-side/src/pages/LogIn.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-side/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/server-side/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-side/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/server-side/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-side/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/server-side/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-side/src/controller/userController.js" beforeDir="false" afterPath="$PROJECT_DIR$/server-side/src/controller/userController.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,6 +70,8 @@
       <workItem from="1684664257766" duration="7931000" />
       <workItem from="1684747680218" duration="3159000" />
       <workItem from="1684925206264" duration="7933000" />
+      <workItem from="1685015148712" duration="5048000" />
+      <workItem from="1685074834282" duration="1287000" />
     </task>
     <servers />
   </component>

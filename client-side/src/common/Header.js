@@ -21,7 +21,7 @@ function BasicExample() {
                             <Nav.Link>Create Task</Nav.Link>
                         </NavLink>
                             <NavLink to="/add-task">Add Task</NavLink>
-                        <Nav.Link href="#home">Login</Nav.Link>
+                        <NavLink to="/login">Login</NavLink>
                         <Nav.Link href="#link">Register</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>

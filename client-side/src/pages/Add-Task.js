@@ -27,7 +27,7 @@ const AddTask = () => {
                 },3000)
             })
             .catch((err) => {
-                toast.warning(`${err.data.err}`);
+                toast.warning(`${err}`);
             });
     };
 
