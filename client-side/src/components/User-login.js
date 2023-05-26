@@ -1,9 +1,10 @@
 import React, {useState} from "react";
 import {Form,Button} from "react-bootstrap";
+import {useNavigate} from "react-router-dom";
 import axios from "axios";
 import { ToastContainer, toast } from 'react-toastify';
 const UserLogin = ()=>{
-    const [error, setError] = useState(null);
+    const navigate = useNavigate()
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
     const handleSubmit = (e) => {
@@ -17,10 +18,12 @@ const UserLogin = ()=>{
             .post("http://localhost:5000/api/v1/login", data)
             .then((res) => {
                 toast.success(`${res.data.message}`);
+                setTimeout(()=>{
+                    navigate("/add-task",{replace:true})
+                },2000)
             })
             .catch((err) => {
-                setError(toast.warning(`${err}`))
-
+                toast.warning(`${err}`)
             });
     };
     return(
@@ -29,7 +32,7 @@ const UserLogin = ()=>{
                 <Form.Label>Email address</Form.Label>
                 <Form.Control type="email" placeholder="Enter email" value={email} onChange={(e) => setEmail(e.target.value)}/>
                 <Form.Text className="text-muted">
-                  Error :jhkhjkhjk
+                  Error :
                 </Form.Text>
             </Form.Group>
 

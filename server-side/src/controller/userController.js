@@ -41,11 +41,11 @@ exports.loginAccount = async (req, res) => {
                     process.env.JWT_SECRET,
                     { expiresIn: "1h" }
                 );
-                res.cookie('access_token', token, {
+                res.cookie("access_token", token, {
                     httpOnly: true,
                     sameSite: 'lax',
                     secure: true // Set to true if using HTTPS
-                }).json({ access_token: token, message: 'Login Success' });
+                }).json({ access_token: token, message: "Login Success" });
             } else {
                 res.status(401).json({ message: "wrong email or password" });
             }
