@@ -4,25 +4,21 @@ const UserModel = new Schema({
     name:{
         type:String,
         require:true,
-        split:true
     },
     email:{
         type:String,
         require:true,
-        split:true,
         unique:true
     },
     phone:{
         type:String,
         require:true,
-        split:true,
         unique:true
     },
     password:{
         type:String,
         require:true,
-        split:true,
-        min:6,
+        min:4,
         max:20
     }
 },{timestamps:true,versionKey:false})

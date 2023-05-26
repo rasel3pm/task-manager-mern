@@ -39,11 +39,11 @@ app.use(
 );
 mongodb()
 app.use("/api/v1",router);
-app.use((req, res, next) => {
-    res.setHeader("Access-Control-Allow-Origin", "http://localhost:5000"); // Replace with your frontend domain
-    res.setHeader("Access-Control-Allow-Credentials", "true");
-    next();
-});
+// app.use((req, res, next) => {
+//     res.setHeader("Access-Control-Allow-Origin", "http://localhost:3000"); // Replace with your frontend domain
+//     res.setHeader("Access-Control-Allow-Credentials", "true");
+//     next();
+// });
 
 app.use("*", (req, res) => {
     res.status(404).json({ status: "Page not found,Please check Url" });

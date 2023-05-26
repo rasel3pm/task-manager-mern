@@ -3,6 +3,7 @@ import {Form,Button} from "react-bootstrap";
 import axios from "axios";
 import { ToastContainer, toast } from 'react-toastify';
 const UserLogin = ()=>{
+    const [error, setError] = useState(null);
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
     const handleSubmit = (e) => {
@@ -18,7 +19,8 @@ const UserLogin = ()=>{
                 toast.success(`${res.data.message}`);
             })
             .catch((err) => {
-                toast.warning(`${err}`);
+                setError(toast.warning(`${err}`))
+
             });
     };
     return(
@@ -27,7 +29,7 @@ const UserLogin = ()=>{
                 <Form.Label>Email address</Form.Label>
                 <Form.Control type="email" placeholder="Enter email" value={email} onChange={(e) => setEmail(e.target.value)}/>
                 <Form.Text className="text-muted">
-                    We'll never share your email with anyone else.
+                  {error}
                 </Form.Text>
             </Form.Group>
 
