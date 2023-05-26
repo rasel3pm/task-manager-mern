@@ -29,7 +29,7 @@ const UserLogin = ()=>{
                 <Form.Label>Email address</Form.Label>
                 <Form.Control type="email" placeholder="Enter email" value={email} onChange={(e) => setEmail(e.target.value)}/>
                 <Form.Text className="text-muted">
-                  {error}
+                  Error :jhkhjkhjk
                 </Form.Text>
             </Form.Group>
 
