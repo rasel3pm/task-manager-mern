@@ -20,7 +20,19 @@ const UserModel = new Schema({
         require:true,
         min:4,
         max:20
-    }
+    },
+    image: [
+        {
+            publicID: {
+                type: String,
+                required: true,
+            },
+            url: {
+                type: String,
+                required: true,
+            },
+        },
+    ],
 },{timestamps:true,versionKey:false})
 const User = mongoose.model("User",UserModel)
 module.exports = User

@@ -5,8 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1484a0d5-3202-4f42-9527-02223b58992d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/server-side/src/utility/cloudinaryConfig.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server-side/src/utility/multerConfig.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_5_21_2023_6_37_PM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_5_21_2023_6_37_PM__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-side/src/components/Task-card.js" beforeDir="false" afterPath="$PROJECT_DIR$/client-side/src/components/Task-card.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-side/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/server-side/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-side/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/server-side/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-side/src/controller/userController.js" beforeDir="false" afterPath="$PROJECT_DIR$/server-side/src/controller/userController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-side/src/model/userModel.js" beforeDir="false" afterPath="$PROJECT_DIR$/server-side/src/model/userModel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-side/src/router/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/server-side/src/router/router.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

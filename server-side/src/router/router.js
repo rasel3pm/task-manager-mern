@@ -3,6 +3,7 @@ const {createTask, getTask, getTaskById, updateTask, deleteTask} = require("../c
 const {createAccount, loginAccount} = require("../controller/userController");
 const {createOrder} = require("../controller/orderController");
 const authentication = require("../middleware/authentication")
+const upload = require("../utility/multerConfig")
 const router = express.Router();
 //manage task router
 router.post("/create-task",authentication,createTask)
@@ -12,7 +13,7 @@ router.patch("/update/:id",updateTask)
 router.delete("/delete/:id",deleteTask)
 
 //manage user router
-router.post("/create-acc",createAccount)
+router.post("/create-acc",upload.single("image"),createAccount)
 router.post("/login",loginAccount)
 
 //manage order

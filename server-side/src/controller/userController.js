@@ -1,23 +1,31 @@
 const User = require("../model/userModel");
 const jwt = require("jsonwebtoken")
 const bcrypt = require('bcrypt');
+const cloudinary = require("../utility/cloudinaryConfig")
 exports.createAccount = async (req,res)=>{
     try{
-        const {name,email,phone,password}=req.body
-
-        const findUser = await User.findOne({ email: email });
-        if (findUser) {
+        const {name,email,phone,password,image }=req.body
+        //find user with email
+        const exsisUser = await User.findOne({ email: email });
+        if (exsisUser) {
             throw error("Already have an account", 400);
         }
+        //encrypt password using bcrypt
         const salt =await bcrypt.genSalt(10)
         const hash =await bcrypt.hash(password,salt)
         req.body.password= hash
 
+        //cloudinary image hosting connect
+        let imageCloud = await cloudinary.uploader.upload(req.file.path,{folder: "uploads"})
         const addUser = await new User({
             name,
             email,
             phone,
-            password:hash
+            password:hash,
+            image: {
+                publicID: imageCloud.public_id,
+                url: imageCloud.secure_url,
+            },
         })
         const user =await addUser.save()
         res.status(200).json({message:"Account create success",user})
